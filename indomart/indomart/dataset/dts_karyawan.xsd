@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dts_karyawan" targetNamespace="http://tempuri.org/dts_karyawan.xsd" xmlns:mstns="http://tempuri.org/dts_karyawan.xsd" xmlns="http://tempuri.org/dts_karyawan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dts_karyawan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dts_karyawan" msprop:Generator_UserDSName="dts_karyawan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dts_karyawan" msprop:Generator_TableClassName="dts_karyawanDataTable" msprop:Generator_TableVarName="tabledts_karyawan" msprop:Generator_TablePropName="_dts_karyawan" msprop:Generator_RowDeletingName="dts_karyawanRowDeleting" msprop:Generator_RowChangingName="dts_karyawanRowChanging" msprop:Generator_RowEvHandlerName="dts_karyawanRowChangeEventHandler" msprop:Generator_RowDeletedName="dts_karyawanRowDeleted" msprop:Generator_UserTableName="dts_karyawan" msprop:Generator_RowChangedName="dts_karyawanRowChanged" msprop:Generator_RowEvArgName="dts_karyawanRowChangeEvent" msprop:Generator_RowClassName="dts_karyawanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nik" msprop:Generator_ColumnVarNameInTable="columnNik" msprop:Generator_ColumnPropNameInRow="Nik" msprop:Generator_ColumnPropNameInTable="NikColumn" msprop:Generator_UserColumnName="Nik" type="xs:string" minOccurs="0" />
+              <xs:element name="Nama_Karyawan" msprop:Generator_ColumnVarNameInTable="columnNama_Karyawan" msprop:Generator_ColumnPropNameInRow="Nama_Karyawan" msprop:Generator_ColumnPropNameInTable="Nama_KaryawanColumn" msprop:Generator_UserColumnName="Nama_Karyawan" type="xs:string" minOccurs="0" />
+              <xs:element name="Jenis_Kelamin" msprop:Generator_ColumnVarNameInTable="columnJenis_Kelamin" msprop:Generator_ColumnPropNameInRow="Jenis_Kelamin" msprop:Generator_ColumnPropNameInTable="Jenis_KelaminColumn" msprop:Generator_UserColumnName="Jenis_Kelamin" type="xs:string" minOccurs="0" />
+              <xs:element name="ttl" msprop:Generator_ColumnVarNameInTable="columnttl" msprop:Generator_ColumnPropNameInRow="ttl" msprop:Generator_ColumnPropNameInTable="ttlColumn" msprop:Generator_UserColumnName="ttl" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl_lahir" msprop:Generator_ColumnVarNameInTable="columntgl_lahir" msprop:Generator_ColumnPropNameInRow="tgl_lahir" msprop:Generator_ColumnPropNameInTable="tgl_lahirColumn" msprop:Generator_UserColumnName="tgl_lahir" type="xs:string" minOccurs="0" />
+              <xs:element name="Agama" msprop:Generator_ColumnVarNameInTable="columnAgama" msprop:Generator_ColumnPropNameInRow="Agama" msprop:Generator_ColumnPropNameInTable="AgamaColumn" msprop:Generator_UserColumnName="Agama" type="xs:string" minOccurs="0" />
+              <xs:element name="Pendidikan" msprop:Generator_ColumnVarNameInTable="columnPendidikan" msprop:Generator_ColumnPropNameInRow="Pendidikan" msprop:Generator_ColumnPropNameInTable="PendidikanColumn" msprop:Generator_UserColumnName="Pendidikan" type="xs:string" minOccurs="0" />
+              <xs:element name="Jabatan" msprop:Generator_ColumnVarNameInTable="columnJabatan" msprop:Generator_ColumnPropNameInRow="Jabatan" msprop:Generator_ColumnPropNameInTable="JabatanColumn" msprop:Generator_UserColumnName="Jabatan" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

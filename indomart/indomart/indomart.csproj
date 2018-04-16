@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61009EC0-4A1F-4F18-A0B0-C7A6033BEF97}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>indomart</RootNamespace>
+    <AssemblyName>indomart</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dao\data_barang_dao.cs" />
+    <Compile Include="dao\data_barang_keluar_dao.cs" />
+    <Compile Include="dao\gaji_dao.cs" />
+    <Compile Include="dao\karyawan_dao.cs" />
+    <Compile Include="dao\login_dao.cs" />
+    <Compile Include="dao\status_karyawan.cs" />
+    <Compile Include="dao\transaksi_barang_keluar_dao.cs" />
+    <Compile Include="dataset\dts_data_barang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_data_barang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dataset\dts_karyawan.Designer.cs" />
+    <Compile Include="dataset\dts_karyawan1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_karyawan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dataset\dts_laporan_transaksi_penjualan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_laporan_transaksi_penjualan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dataset\dts_penggajian.cs">
+      <DependentUpon>dts_penggajian.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dataset\dts_penggajian.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_penggajian.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="model\data_barang.cs" />
+    <Compile Include="model\data_barang_keluar.cs" />
+    <Compile Include="model\gaji.cs" />
+    <Compile Include="model\karyawan.cs" />
+    <Compile Include="model\login_karyawan.cs" />
+    <Compile Include="model\transaksi_penjualan.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="report\cr_data_barang.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_data_barang.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\cr_karyawan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_karyawan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\cr_laporan_transansaksi_penjualan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_laporan_transansaksi_penjualan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\cr_penggajian.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_penggajian.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="view\frm_data_barang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_data_barang.Designer.cs">
+      <DependentUpon>frm_data_barang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_gaji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_gaji.Designer.cs">
+      <DependentUpon>frm_gaji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_karyawan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_karyawan.Designer.cs">
+      <DependentUpon>frm_karyawan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_kasir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_kasir.Designer.cs">
+      <DependentUpon>frm_kasir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_rpt_data_barang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_rpt_data_barang.Designer.cs">
+      <DependentUpon>frm_rpt_data_barang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_rpt_karyawan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_rpt_karyawan.Designer.cs">
+      <DependentUpon>frm_rpt_karyawan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_rpt_penggajian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_rpt_penggajian.Designer.cs">
+      <DependentUpon>frm_rpt_penggajian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_rpt_transaksi_penjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_rpt_transaksi_penjualan.Designer.cs">
+      <DependentUpon>frm_rpt_transaksi_penjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_tabel_transaksi_penjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_tabel_transaksi_penjualan.Designer.cs">
+      <DependentUpon>frm_tabel_transaksi_penjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_tambah_karyawan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_tambah_karyawan.Designer.cs">
+      <DependentUpon>frm_tambah_karyawan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_login_karyawan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_login_karyawan.Designer.cs">
+      <DependentUpon>frm_login_karyawan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_tmbh_gaji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_tmbh_gaji.Designer.cs">
+      <DependentUpon>frm_tmbh_gaji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_utama_child.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_utama_child.Designer.cs">
+      <DependentUpon>frm_utama_child.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_utama_parent_kasir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_utama_parent_kasir.Designer.cs">
+      <DependentUpon>frm_utama_parent_kasir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\frm_utama_parent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\frm_utama_parent.Designer.cs">
+      <DependentUpon>frm_utama_parent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\tambah_barang_masuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\tambah_barang_masuk.Designer.cs">
+      <DependentUpon>tambah_barang_masuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\tambah_stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\tambah_stock.Designer.cs">
+      <DependentUpon>tambah_stock.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="report\cr_data_barang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_data_barang.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\cr_karyawan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_karyawan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\cr_laporan_transansaksi_penjualan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_laporan_transansaksi_penjualan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\cr_penggajian.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_penggajian.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_data_barang.resx">
+      <DependentUpon>frm_data_barang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_gaji.resx">
+      <DependentUpon>frm_gaji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_karyawan.resx">
+      <DependentUpon>frm_karyawan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_kasir.resx">
+      <DependentUpon>frm_kasir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_rpt_data_barang.resx">
+      <DependentUpon>frm_rpt_data_barang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_rpt_penggajian.resx">
+      <DependentUpon>frm_rpt_penggajian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_rpt_transaksi_penjualan.resx">
+      <DependentUpon>frm_rpt_transaksi_penjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_tabel_transaksi_penjualan.resx">
+      <DependentUpon>frm_tabel_transaksi_penjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_tambah_karyawan.resx">
+      <DependentUpon>frm_tambah_karyawan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_login_karyawan.resx">
+      <DependentUpon>frm_login_karyawan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_tmbh_gaji.resx">
+      <DependentUpon>frm_tmbh_gaji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_utama_child.resx">
+      <DependentUpon>frm_utama_child.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_utama_parent_kasir.resx">
+      <DependentUpon>frm_utama_parent_kasir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\frm_utama_parent.resx">
+      <DependentUpon>frm_utama_parent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\tambah_barang_masuk.resx">
+      <DependentUpon>tambah_barang_masuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\tambah_stock.resx">
+      <DependentUpon>tambah_stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="dataset\dts_data_barang.xsc">
+      <DependentUpon>dts_data_barang.xsd</DependentUpon>
+    </None>
+    <None Include="dataset\dts_data_barang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_data_barang.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dataset\dts_data_barang.xss">
+      <DependentUpon>dts_data_barang.xsd</DependentUpon>
+    </None>
+    <None Include="dataset\dts_karyawan.xsc">
+      <DependentUpon>dts_karyawan.xsd</DependentUpon>
+    </None>
+    <None Include="dataset\dts_karyawan.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_karyawan1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataset\dts_karyawan.xss">
+      <DependentUpon>dts_karyawan.xsd</DependentUpon>
+    </None>
+    <None Include="dataset\dts_laporan_transaksi_penjualan.xsc">
+      <DependentUpon>dts_laporan_transaksi_penjualan.xsd</DependentUpon>
+    </None>
+    <None Include="dataset\dts_laporan_transaksi_penjualan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_laporan_transaksi_penjualan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dataset\dts_laporan_transaksi_penjualan.xss">
+      <DependentUpon>dts_laporan_transaksi_penjualan.xsd</DependentUpon>
+    </None>
+    <None Include="dataset\dts_penggajian.xsc">
+      <DependentUpon>dts_penggajian.xsd</DependentUpon>
+    </None>
+    <None Include="dataset\dts_penggajian.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_penggajian.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dataset\dts_penggajian.xss">
+      <DependentUpon>dts_penggajian.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1279683712_106168825_1-Gambar--Software-Toko-POS-dan-Minimarket-sangat-mudah-lengkap-dan-murah-1279683712.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Indomaret2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

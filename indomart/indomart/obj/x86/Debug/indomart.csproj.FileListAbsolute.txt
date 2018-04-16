@@ -1,0 +1,78 @@
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.Properties.Resources.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Bahan For C#\Indomart\indomart\indomart\bin\Debug\indomart.exe
+D:\Bahan For C#\Indomart\indomart\indomart\bin\Debug\indomart.pdb
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.exe
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.pdb
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_data_barang.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.tambah_barang_masuk.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_kasir.resources
+D:\Indomart\indomart\indomart\obj\x86\Debug\indomart.exe
+D:\Indomart\indomart\indomart\obj\x86\Debug\indomart.pdb
+D:\Indomart\indomart\indomart\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Indomart\indomart\indomart\obj\x86\Debug\indomart.Properties.Resources.resources
+D:\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_data_barang.resources
+D:\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_kasir.resources
+D:\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.tambah_barang_masuk.resources
+D:\Indomart\indomart\indomart\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Indomart\indomart\indomart\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_login_karyawan.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.tambah_stock.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_tabel_transaksi_penjualan.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_utama_child.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_utama_parent_kasir.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_utama_parent.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.exe
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.pdb
+C:\Users\Public\Pictures\indomart\indomart\bin\Debug\indomart.exe
+C:\Users\Public\Pictures\indomart\indomart\bin\Debug\indomart.pdb
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.Properties.Resources.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.frm_data_barang.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.frm_kasir.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.frm_tabel_transaksi_penjualan.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\data_indomaret.view.frm_tambah_karyawan.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.frm_login_karyawan.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.frm_utama_child.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.frm_utama_parent_kasir.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.frm_utama_parent.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.tambah_barang_masuk.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.tambah_stock.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.frm_gaji.resources
+C:\Users\Public\Pictures\indomart\indomart\obj\x86\Debug\indomart.view.frm_tmbh_gaji.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_gaji.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_tmbh_gaji.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_karyawan.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_tambah_karyawan.resources
+D:\Bahan For C#\Indomart\indomart\indomart\bin\Debug\indomart.exe.config
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_rpt_data_barang.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_rpt_penggajian.resources
+D:\Bahan For C#\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_rpt_transaksi_penjualan.resources
+D:\Project\Desktop\Indomart\indomart\indomart\bin\Debug\indomart.exe.config
+D:\Project\Desktop\Indomart\indomart\indomart\bin\Debug\indomart.exe
+D:\Project\Desktop\Indomart\indomart\indomart\bin\Debug\indomart.pdb
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.csprojResolveAssemblyReference.cache
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.Properties.Resources.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_data_barang.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_gaji.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_karyawan.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_kasir.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_rpt_data_barang.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_rpt_penggajian.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_rpt_transaksi_penjualan.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_tabel_transaksi_penjualan.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_tambah_karyawan.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_login_karyawan.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_tmbh_gaji.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_utama_child.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_utama_parent_kasir.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.frm_utama_parent.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.tambah_barang_masuk.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.view.tambah_stock.resources
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.csproj.GenerateResource.Cache
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.exe
+D:\Project\Desktop\Indomart\indomart\indomart\obj\x86\Debug\indomart.pdb
